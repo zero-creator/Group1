@@ -1,5 +1,7 @@
-package com.group1.Group1Sprint;
+package com.group1.Group1Sprint.controllers;
 
+import com.group1.Group1Sprint.models.HelloWorldModel;
+import com.group1.Group1Sprint.repositories.HelloWorldRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -7,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/helloworld")
-public class HelloWorldAPI {
+public class HelloWorldController {
     @Autowired
     private HelloWorldRepository HelloWorldRepo;
 

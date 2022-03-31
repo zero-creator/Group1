@@ -1,4 +1,4 @@
-package com.group1.Group1Sprint;
+package com.group1.Group1Sprint.models;
 
 import javax.persistence.*;
 
